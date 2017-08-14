@@ -52,7 +52,7 @@ https://www.tomstall.com/content/create-a-globally-distributed-tensorflow-servin
 ## Note 
 
 There are a few refinements I plan to add to this project, as they are properly tested.
-The protobuf files may need to be recompiled if you version of Protocol Buffers does not match 
+The protobuf files may need to be recompiled if your version of Protocol Buffers does not match 
 the one I used. I will put back the automatic proto file complilation as soon as it is tested.
 
 In the meantime the protofiles may be compiled as follows:
