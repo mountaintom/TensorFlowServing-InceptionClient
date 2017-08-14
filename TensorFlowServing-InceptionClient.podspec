@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TensorFlowServing-InceptionClient'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A simple demo of TensorFlow Serving'
 
   s.description      = <<-DESC
