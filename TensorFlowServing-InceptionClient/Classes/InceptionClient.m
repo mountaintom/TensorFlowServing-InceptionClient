@@ -12,17 +12,17 @@
 #import <GRPCClient/GRPCCall+ChannelArg.h>
 #import <GRPCClient/GRPCCall+Tests.h>
 
-#import "tensorflow_serving/apis/PredictionService.pbrpc.h"
-#import "tensorflow_serving/apis/Predict.pbobjc.h"
-#import "tensorflow_serving/apis/Classification.pbobjc.h"
-#import "tensorflow_serving/apis/GetModelMetadata.pbobjc.h"
-#import "tensorflow_serving/apis/Inference.pbobjc.h"
-#import "tensorflow_serving/apis/Input.pbobjc.h"
-#import "tensorflow_serving/apis/Regression.pbobjc.h"
-#import "tensorflow/core/framework/Tensor.pbobjc.h"
-#import "tensorflow/core/framework/TensorShape.pbobjc.h"
-#import "tensorflow/core/framework/Types.pbobjc.h"
-#import "tensorflow_serving/apis/Model.pbobjc.h"
+#import <tensorflow_serving/apis/PredictionService.pbrpc.h>
+#import <tensorflow_serving/apis/Predict.pbobjc.h>
+#import <tensorflow_serving/apis/Classification.pbobjc.h>
+#import <tensorflow_serving/apis/GetModelMetadata.pbobjc.h>
+#import <tensorflow_serving/apis/Inference.pbobjc.h>
+#import <tensorflow_serving/apis/Input.pbobjc.h>
+#import <tensorflow_serving/apis/Regression.pbobjc.h>
+#import <tensorflow/core/framework/Tensor.pbobjc.h>
+#import <tensorflow/core/framework/TensorShape.pbobjc.h>
+#import <tensorflow/core/framework/Types.pbobjc.h>
+#import <tensorflow_serving/apis/Model.pbobjc.h>
 
 @interface InceptionClient ()
 
