@@ -69,7 +69,7 @@
     
     self.inceptionResultsText.text = @"Sending Camel image to server";
     
-    NSData* imageData = [PodAsset dataForFilename:@"grace_hopper.jpg" pod:@"TensorFlowServing-InceptionClient"];
+    NSData* imageData = [PodAsset dataForFilename:@"DromedaryCamel64x64.jpg" pod:@"TensorFlowServing-InceptionClient"];
     
     [self sendInceptionRequest:imageData];
    
